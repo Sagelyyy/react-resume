@@ -1,0 +1,21 @@
+:root {
+  /* our base color, with one tint, and one shade - body and typogaphry is generally the base colour */
+  --clr-base: #003049;
+  --clr-base-lt: #eae2b7;
+  --clr-base-dk: #d62828;
+
+  /* neutrals */
+  --clr-ntrl-min: #fff;
+  --clr-ntrl-max: #000;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 1fr 350px 1fr;
+  column-gap: 25px;
+}

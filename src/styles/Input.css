@@ -1,0 +1,7 @@
+input {
+  border: 1px solid gray;
+}
+
+input:focus {
+  border: 2px solid lightskyblue;
+}

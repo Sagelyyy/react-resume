@@ -1,0 +1,49 @@
+.preview-container {
+  margin-top: 50px;
+}
+
+.hr-black {
+  border-bottom: 1px solid black;
+  width: 75%;
+}
+
+.hr-grey {
+  border-bottom: 1px solid rgb(212, 212, 212);
+  width: 50%;
+}
+
+.header,
+.education,
+.experience {
+  display: flex;
+  flex-direction: column;
+}
+
+.header > div {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.education > div,
+.experience > div {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.edu-dates,
+.edu-info,
+.exp-info,
+.exp-dates {
+  display: flex;
+  flex-direction: column;
+  line-height: 0;
+}
+
+.education > button,
+.experience > button {
+  width: 20%;
+  margin: 2px;
+  align-self: flex-end;
+}

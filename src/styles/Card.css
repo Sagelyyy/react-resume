@@ -1,0 +1,23 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  gap: 5px;
+}
+
+.card > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.card > div > div {
+  display: flex;
+  gap: 5px;
+}
+
+.card > div > div > input {
+  width: 60%;
+}
